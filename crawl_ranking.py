@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 ranking_DF = pd.DataFrame(columns=['currentRating', 'currentGlobalRanking', 'userAvatar', 'username', 'realName', 'ranking', 'school'])
 currentRating=[]; currentGlobalRanking=[]; userAvatar=[]; username=[]; realName=[]; ranking=[]; school=[]
-for i in tqdm(range(293,295)):
+for i in tqdm(range(13878)):
     # POST for ranking data for the page
     graphql_ranking = requests.post(
         'https://leetcode.com/graphql/',
