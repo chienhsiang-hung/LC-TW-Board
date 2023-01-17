@@ -1,82 +1,149 @@
-﻿currentRating,currentGlobalRanking,userAvatar,username,realName,ranking
-3312.286,15,https://assets.leetcode.com/users/tmwilliamlin168/avatar_1581176013.png,tmwilliamlin168,William Lin,278357
-3190.717152726985,30,https://assets.leetcode.com/users/dreamoon/avatar_1523092546.png,dreamoon,I-Wen Huang,100949
-3138.2026473278484,39,https://assets.leetcode.com/users/hank55663/avatar_1586006495.png,hank55663,hank,7320
-3028.831,74,https://assets.leetcode.com/users/pr3pony/avatar_1545535426.png,pr3pony,pr3pony,179753
-2914.742,117,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,DickLearning,乂爻懶叫x學習爻乂,49245
-2794.5330778642597,184,https://assets.leetcode.com/users/cchao/avatar_1521428242.png,cchao,GGHao,10192
-2760.631475466809,211,https://assets.leetcode.com/users/avatars/avatar_1669537735.png,HanaYukii,Erh-Hsuan Lu,10930
-2754.704001644162,222,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,jevancc,,846
-2737.8401975288816,239,https://assets.leetcode.com/users/avatars/avatar_1646011075.png,hkwu6013,,1063
-2729.9202753377317,252,https://assets.leetcode.com/users/yan_wei_zhe/avatar_1604200997.png,aaronyen,Aaron,1666
-2722.998650140456,263,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,orthogonal1,,4257
-2718.293933667961,272,https://assets.leetcode.com/users/zoo30215/avatar_1636867601.png,zoo30215,zoo30215,4693
-2683.879,333,https://assets.leetcode.com/users/shik/avatar_1524281331.png,shik,Shik Chen,327497
-2680.528,338,https://assets.leetcode.com/users/cthbst/avatar_1519529228.png,cthbst,Tsung-Ta Wu,68425
-2677.836529568618,346,https://assets.leetcode.com/users/eiscutn731hr/avatar_1633848550.png,rh137,Ryan,1186
-2648.7634937571675,403,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,ydchentw,ydchen,199
-2630.5771080338563,434,https://assets.leetcode.com/users/wjtung/avatar_1543235035.png,WJTung,Wen-Chieh Tung,4149
-2607.625,512,https://assets.leetcode.com/users/tmt514/avatar_1521314564.png,tmt514,Shang-En Huang,224569
-2604.632035535511,525,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,ccctttd,ctc,59443
-2597.3138730172277,543,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,zzxzxzzxz,Yu-Chen Lu,30779
-2587.250833088822,569,https://assets.leetcode.com/users/hsuan-ting/avatar_1521380194.png,hsuan-ting,Hsuan-ting Chen,135593
-2586.6237735486407,573,https://assets.leetcode.com/users/multipass/avatar_1551589643.png,luobogao,,332405
-2572.944633804425,609,https://assets.leetcode.com/users/rarakasm/avatar_1590947047.png,rarakasm,SH Liu,1895
-2569.7647857988377,613,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,GCYeh,Oscar Yeh,153
-2542.399,699,https://assets.leetcode.com/users/ting-fu/avatar_1525574042.png,tfliao,Ting-Fu Liao,23539
-2512.3012699485703,814,https://assets.leetcode.com/users/avatars/avatar_1640417981.png,Ayanerru,,41
-2506.1625429157402,829,https://assets.leetcode.com/users/Tinky1224/avatar_1631979842.png,Tinky1224,,613
-2472.514523293189,959,https://assets.leetcode.com/users/avatars/avatar_1650284615.png,loodv002,,16545
-2468.611366405486,979,https://assets.leetcode.com/users/gj3bp6123/avatar_1622134201.png,iowk,iowk,126306
-2466.3237875705554,987,https://assets.leetcode.com/users/yh157612/avatar_1518370850.png,yh157612,,14384
-2455.879,1034,https://assets.leetcode.com/users/sevenlol/avatar_1521290564.png,sevenlol,Stephen Lin,986
-2454.7818473119783,1041,https://assets.leetcode.com/users/avatars/avatar_1644527969.png,n124345679976,CHH,9546
-2450.093312203206,1060,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,MizarHo,Mizar Ho,442
-2446.627,1078,https://assets.leetcode.com/users/kai-chieh/avatar_1525410263.png,kai-chieh,Kai-Chieh Chang,29614
-2445.809,1081,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,jasonch123,,2462
-2438.0479074733043,1127,https://assets.leetcode.com/users/avatars/avatar_1637071988.png,alex391a,Yi-Yao Wang,5743
-2437.2671796562377,1133,https://assets.leetcode.com/users/Leofu/avatar_1634240758.png,Leofu,,5528
-2432.57181268606,1155,https://assets.leetcode.com/users/avatars/avatar_1663413679.png,uier890305,TzuWei,91846
-2427.765,1170,https://assets.leetcode.com/users/0w1/avatar_1572181111.png,0w1,,1062
-2419.22,1215,https://assets.leetcode.com/users/bigelephant29/avatar_1549181831.png,bigelephant29,Jhih-Bang Hsieh,41585
-2415.7148790431497,1234,https://assets.leetcode.com/users/iago2007/avatar_1598403180.png,cjyang1230,CHIH-JOU YANG,1068
-2410.963,1263,https://assets.leetcode.com/users/marmot0814/avatar_1573970876.png,marmot0814,Zheng-Dao Yang,90885
-2408.842495018459,1273,https://assets.leetcode.com/users/felixhuang07/avatar_1629458341.png,felixhuang07,Penguin07,81737
-2408.0578524994867,1282,https://assets.leetcode.com/users/mathbookpeace/avatar_1618719291.png,mathbookpeace,mathbookpeace,1150
-2406.964,1292,https://assets.leetcode.com/users/avatars/avatar_1645213239.png,joylintp,joylintp,158004
-2400.651,1337,https://assets.leetcode.com/users/hcchiu/avatar_1592050994.png,hcchiu,hcchiu,2941
-2399.984594387568,1341,https://assets.leetcode.com/users/lhh1991117/avatar_1521285872.png,lhh1991117,宏豪 賴,25063
-2399.112284362125,1344,https://assets.leetcode.com/users/louisfghbvc/avatar_1634900036.png,louisfghbvc,尾玉,624
-2384.9677124851837,1425,https://assets.leetcode.com/users/avatars/avatar_1667159377.png,fxfxxxfxx,,55872
-2381.069637692302,1450,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,st60712,,10222
-2376.5266687970297,1476,https://assets.leetcode.com/users/avatars/avatar_1668267291.png,nein1203_unofficial,nein1203_unofficial,112857
-2374.124185408092,1490,https://assets.leetcode.com/users/inversionpeter/avatar_1622455635.png,inversionpeter,Peter Lin,1845
-2373.6325416171767,1494,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,kaminyou,Ming Yang Ho,1059
-2370.323244252916,1513,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,ranksvm,SSS,1602
-2370.135,1515,https://assets.leetcode.com/users/peilikuo79/avatar_1522042650.png,matchalatte,Bailey K.,3304
-2367.185,1536,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,binsjl,,117328
-2366.184,1540,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,sevenloldev,Stephen Lin,1130221
-2364.112,1552,https://assets.leetcode.com/users/ttjtftx/avatar_1521086573.png,ttjtftx,,60165
-2346.652,1668,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,hanhsienhuang,Hanhsien Huang,42666
-2343.228,1696,https://assets.leetcode.com/users/kangbb/avatar_1543284922.png,kangbb,Hao-Hua Kang,2220
-2342.392,1701,https://assets.leetcode.com/users/Verdict_AC/avatar_1629624820.png,Verdict_AC,HE_SE,2319
-2337.8186173443723,1741,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,tomsangotw,,5869
-2337.7468638644114,1744,https://assets.leetcode.com/users/yrclamb/avatar_1523803762.png,yrclamb,Yang-Ru Chou,401
-2334.687,1774,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,gantheory,,65085
-2327.766,1834,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,Yuzukun,,141737
-2325.9769743775896,1853,https://assets.leetcode.com/users/anson370/avatar_1546587174.png,anson370,賴奕儒,4437
-2324.7663139245174,1861,https://assets.leetcode.com/users/Double-T1/avatar_1631639265.png,Double-T1,Chen Wei-Chen,1810
-2322.574956014769,1877,https://assets.leetcode.com/users/ericet1234/avatar_1607223997.png,ericet1234,Kuo-Yu Huang,2034
-2321.741,1884,https://assets.leetcode.com/users/avatars/avatar_1645675593.png,yqzh,love jia,1220313
-2321.42,1886,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,u3434555,Hsiang-Wei Tu,9741
-2321.360007326461,1889,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,kaiwenhu,kaiwenhu,10024
-2319.2593887860357,1905,https://assets.leetcode.com/users/ko19951231/avatar_1562384362.png,ko19951231,Chu Ling Ko,19948
-2311.113,1975,https://assets.leetcode.com/users/krammer0/avatar_1522517968.png,krammer0,政宏 劉,279
-2305.923,2031,https://assets.leetcode.com/users/b99202050/avatar_1583053795.png,b99202050,,1492
-2293.4371396569954,2151,https://assets.leetcode.com/users/dylanhij/avatar_1635951461.png,dylanhij,DylanHIJ,1885
-2283.209,2271,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,csferng,Chun-Sung Ferng,415041
-2280.7477560882767,2293,https://assets.leetcode.com/users/avatars/avatar_1669024807.png,kevin1010607,kevin1010607,15011
-2280.446,2302,https://assets.leetcode.com/users/arthurlin/avatar_1590300883.png,ArthurLin,Ding-Chi Lin,7311
-2268.245,2432,https://assets.leetcode.com/users/frostfrog2/avatar_1515491528.png,frostfrog,郭青樺,13739
-2267.593,2443,https://assets.leetcode.com/users/jeffrey-0/avatar_1570105673.png,Jeffrey-Ho,Jeffrey  Ho,150106
-2266.055782494243,2465,https://assets.leetcode.com/users/doublewinds/avatar_1591795036.png,doublewinds,,9311
+﻿currentRating,currentGlobalRanking,userAvatar,username,realName,ranking,school
+3312.286,15,https://assets.leetcode.com/users/tmwilliamlin168/avatar_1581176013.png,tmwilliamlin168,William Lin,278357,
+3190.717152726985,30,https://assets.leetcode.com/users/dreamoon/avatar_1523092546.png,dreamoon,I-Wen Huang,100949,
+3138.2026473278484,39,https://assets.leetcode.com/users/hank55663/avatar_1586006495.png,hank55663,hank,7320,National Central University
+3028.831,74,https://assets.leetcode.com/users/pr3pony/avatar_1545535426.png,pr3pony,pr3pony,179753,
+2914.742,117,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,DickLearning,乂爻懶叫x學習爻乂,49245,
+2794.5330778642597,184,https://assets.leetcode.com/users/cchao/avatar_1521428242.png,cchao,GGHao,10192,
+2760.631475466809,211,https://assets.leetcode.com/users/avatars/avatar_1669537735.png,HanaYukii,Erh-Hsuan Lu,10930,
+2754.704001644162,222,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,jevancc,,846,National Chiao Tung University
+2737.8401975288816,239,https://assets.leetcode.com/users/avatars/avatar_1646011075.png,hkwu6013,,1063,
+2729.9202753377317,252,https://assets.leetcode.com/users/yan_wei_zhe/avatar_1604200997.png,aaronyen,Aaron,1666,
+2722.998650140456,263,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,orthogonal1,,4257,
+2718.293933667961,272,https://assets.leetcode.com/users/zoo30215/avatar_1636867601.png,zoo30215,zoo30215,4693,
+2683.879,333,https://assets.leetcode.com/users/shik/avatar_1524281331.png,shik,Shik Chen,327497,
+2680.528,338,https://assets.leetcode.com/users/cthbst/avatar_1519529228.png,cthbst,Tsung-Ta Wu,68425,
+2677.836529568618,346,https://assets.leetcode.com/users/eiscutn731hr/avatar_1633848550.png,rh137,Ryan,1186,National Taiwan University
+2648.7634937571675,403,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,ydchentw,ydchen,199,
+2630.5771080338563,434,https://assets.leetcode.com/users/wjtung/avatar_1543235035.png,WJTung,Wen-Chieh Tung,4149,ETH Zurich
+2607.625,512,https://assets.leetcode.com/users/tmt514/avatar_1521314564.png,tmt514,Shang-En Huang,224569,
+2604.632035535511,525,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,ccctttd,ctc,59443,
+2597.3138730172277,543,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,zzxzxzzxz,Yu-Chen Lu,30779,
+2587.250833088822,569,https://assets.leetcode.com/users/hsuan-ting/avatar_1521380194.png,hsuan-ting,Hsuan-ting Chen,135593,
+2586.6237735486407,573,https://assets.leetcode.com/users/multipass/avatar_1551589643.png,luobogao,,332405,
+2572.944633804425,609,https://assets.leetcode.com/users/rarakasm/avatar_1590947047.png,rarakasm,SH Liu,1895,National Taiwan University
+2569.7647857988377,613,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,GCYeh,Oscar Yeh,153,National Taiwan University
+2542.399,699,https://assets.leetcode.com/users/ting-fu/avatar_1525574042.png,tfliao,Ting-Fu Liao,23539,National Chiao Tung University
+2512.3012699485703,814,https://assets.leetcode.com/users/avatars/avatar_1640417981.png,Ayanerru,,41,National Taiwan University
+2506.1625429157402,829,https://assets.leetcode.com/users/Tinky1224/avatar_1631979842.png,Tinky1224,,613,
+2472.514523293189,959,https://assets.leetcode.com/users/avatars/avatar_1650284615.png,loodv002,,16545,National Chiao Tung University
+2468.611366405486,979,https://assets.leetcode.com/users/gj3bp6123/avatar_1622134201.png,iowk,iowk,126306,
+2466.3237875705554,987,https://assets.leetcode.com/users/yh157612/avatar_1518370850.png,yh157612,,14384,National Taiwan University
+2455.879,1034,https://assets.leetcode.com/users/sevenlol/avatar_1521290564.png,sevenlol,Stephen Lin,986,
+2454.7818473119783,1041,https://assets.leetcode.com/users/avatars/avatar_1644527969.png,n124345679976,CHH,9546,
+2450.093312203206,1060,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,MizarHo,Mizar Ho,442,
+2446.627,1078,https://assets.leetcode.com/users/kai-chieh/avatar_1525410263.png,kai-chieh,Kai-Chieh Chang,29614,National Taiwan University
+2445.809,1081,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,jasonch123,,2462,
+2438.0479074733043,1127,https://assets.leetcode.com/users/avatars/avatar_1637071988.png,alex391a,Yi-Yao Wang,5743,NTU
+2437.2671796562377,1133,https://assets.leetcode.com/users/Leofu/avatar_1634240758.png,Leofu,,5528,Ecole 42
+2432.57181268606,1155,https://assets.leetcode.com/users/avatars/avatar_1663413679.png,uier890305,TzuWei,91846,
+2427.765,1170,https://assets.leetcode.com/users/0w1/avatar_1572181111.png,0w1,,1062,
+2419.22,1215,https://assets.leetcode.com/users/bigelephant29/avatar_1549181831.png,bigelephant29,Jhih-Bang Hsieh,41585,
+2415.7148790431497,1234,https://assets.leetcode.com/users/iago2007/avatar_1598403180.png,cjyang1230,CHIH-JOU YANG,1068,
+2410.963,1263,https://assets.leetcode.com/users/marmot0814/avatar_1573970876.png,marmot0814,Zheng-Dao Yang,90885,
+2408.842495018459,1273,https://assets.leetcode.com/users/felixhuang07/avatar_1629458341.png,felixhuang07,Penguin07,81737,
+2408.0578524994867,1282,https://assets.leetcode.com/users/mathbookpeace/avatar_1618719291.png,mathbookpeace,mathbookpeace,1150,National Taiwan University
+2406.964,1292,https://assets.leetcode.com/users/avatars/avatar_1645213239.png,joylintp,joylintp,158004,
+2400.651,1337,https://assets.leetcode.com/users/hcchiu/avatar_1592050994.png,hcchiu,hcchiu,2941,
+2399.984594387568,1341,https://assets.leetcode.com/users/lhh1991117/avatar_1521285872.png,lhh1991117,宏豪 賴,25063,
+2399.112284362125,1344,https://assets.leetcode.com/users/louisfghbvc/avatar_1634900036.png,louisfghbvc,尾玉,624,National Tsing Hua University
+2384.9677124851837,1425,https://assets.leetcode.com/users/avatars/avatar_1667159377.png,fxfxxxfxx,,55872,
+2381.069637692302,1450,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,st60712,,10222,
+2376.5266687970297,1476,https://assets.leetcode.com/users/avatars/avatar_1668267291.png,nein1203_unofficial,nein1203_unofficial,112857,
+2374.124185408092,1490,https://assets.leetcode.com/users/inversionpeter/avatar_1622455635.png,inversionpeter,Peter Lin,1845,
+2373.6325416171767,1494,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,kaminyou,Ming Yang Ho,1059,National Taiwan University
+2370.323244252916,1513,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,ranksvm,SSS,1602,
+2370.135,1515,https://assets.leetcode.com/users/peilikuo79/avatar_1522042650.png,matchalatte,Bailey K.,3304,
+2367.185,1536,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,binsjl,,117328,
+2366.184,1540,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,sevenloldev,Stephen Lin,1130221,
+2364.112,1552,https://assets.leetcode.com/users/ttjtftx/avatar_1521086573.png,ttjtftx,,60165,
+2346.652,1668,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,hanhsienhuang,Hanhsien Huang,42666,Texas A&M University--College Station
+2343.228,1696,https://assets.leetcode.com/users/kangbb/avatar_1543284922.png,kangbb,Hao-Hua Kang,2220,National Chiao Tung University
+2342.392,1701,https://assets.leetcode.com/users/Verdict_AC/avatar_1629624820.png,Verdict_AC,HE_SE,2319,
+2337.8186173443723,1741,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,tomsangotw,,5869,
+2337.7468638644114,1744,https://assets.leetcode.com/users/yrclamb/avatar_1523803762.png,yrclamb,Yang-Ru Chou,401,
+2334.687,1774,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,gantheory,,65085,
+2327.766,1834,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,Yuzukun,,141737,
+2325.9769743775896,1853,https://assets.leetcode.com/users/anson370/avatar_1546587174.png,anson370,賴奕儒,4437,
+2324.7663139245174,1861,https://assets.leetcode.com/users/Double-T1/avatar_1631639265.png,Double-T1,Chen Wei-Chen,1810,
+2322.574956014769,1877,https://assets.leetcode.com/users/ericet1234/avatar_1607223997.png,ericet1234,Kuo-Yu Huang,2034,
+2321.741,1884,https://assets.leetcode.com/users/avatars/avatar_1645675593.png,yqzh,love jia,1220313,
+2321.42,1886,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,u3434555,Hsiang-Wei Tu,9741,
+2321.360007326461,1889,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,kaiwenhu,kaiwenhu,10024,National Taiwan University
+2319.2593887860357,1905,https://assets.leetcode.com/users/ko19951231/avatar_1562384362.png,ko19951231,Chu Ling Ko,19948,
+2311.113,1975,https://assets.leetcode.com/users/krammer0/avatar_1522517968.png,krammer0,政宏 劉,279,
+2305.923,2031,https://assets.leetcode.com/users/b99202050/avatar_1583053795.png,b99202050,,1492,
+2293.4371396569954,2151,https://assets.leetcode.com/users/dylanhij/avatar_1635951461.png,dylanhij,DylanHIJ,1885,National Taiwan University
+2283.209,2271,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,csferng,Chun-Sung Ferng,415041,
+2280.7477560882767,2293,https://assets.leetcode.com/users/avatars/avatar_1669024807.png,kevin1010607,kevin1010607,15011,National Tsing Hua University
+2280.446,2302,https://assets.leetcode.com/users/arthurlin/avatar_1590300883.png,ArthurLin,Ding-Chi Lin,7311,NTU
+2268.245,2432,https://assets.leetcode.com/users/frostfrog2/avatar_1515491528.png,frostfrog,郭青樺,13739,
+2267.593,2443,https://assets.leetcode.com/users/jeffrey-0/avatar_1570105673.png,Jeffrey-Ho,Jeffrey  Ho,150106,
+2266.055782494243,2465,https://assets.leetcode.com/users/doublewinds/avatar_1591795036.png,doublewinds,,9311,
+2261.885,2513,https://assets.leetcode.com/users/yoshikage1202358/avatar_1585485009.png,Yoshikage1202358,Huan-Po Lin,92175,National Chiao Tung University
+2253.073,2628,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,hsiu,Yi-Hsiu Chen,66991,
+2248.2606198135168,2689,https://assets.leetcode.com/users/susi/avatar_1528379646.png,susi,Chen Sishi,1438,National Taiwan University
+2243.331,2767,https://assets.leetcode.com/users/n3k0fi5t/avatar_1625042665.png,n3k0fi5t,,757,National Taiwan University
+2242.032039704921,2789,https://assets.leetcode.com/users/avatars/avatar_1653241207.png,ColonelBuendia,,5507,
+2233.9155558009193,2889,https://assets.leetcode.com/users/ttthetravelerrr/avatar_1592651370.png,ttthetravelerrr,育志 林,23847,
+2232.8388268160247,2900,https://assets.leetcode.com/users/avatars/avatar_1653124720.png,hdchen,HD Chen,66,National Taiwan University
+2232.429,2904,https://assets.leetcode.com/users/rogerwww/avatar_1544929784.png,RogerWWW,Roger Wu,137036,
+2232.2172332698474,2907,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,RayHongZ,,8074,
+2230.844879840398,2929,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,caballersky99,,2285,
+2226.333,2997,https://assets.leetcode.com/users/gblin5566/avatar_1540095750.png,GBLin5566,Chien-Fu Lin,566,
+2224.130447067156,3032,https://assets.leetcode.com/users/avatars/avatar_1649163957.png,thhuang,TH Huang,7269,Northwestern University
+2222.4535369214063,3064,https://assets.leetcode.com/users/mocowcow/avatar_1618710452.png,mocowcow,momocowcow,1425,
+2219.5021402991597,3104,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,jetswayss,jetswayss,841746,
+2215.06430307161,3179,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,abels1,,587,
+2213.879421736253,3199,https://assets.leetcode.com/users/splend1d/avatar_1581176511.png,Splend1dChan,許湛然(Jeff Hsu),8237,
+2213.443,3212,https://assets.leetcode.com/users/Viplab_weiyu/avatar_1630728533.png,alertgoogler,alert1,1082949,alert(1)
+2209.055,3257,https://assets.leetcode.com/users/jieshentzuai/avatar_1538897491.png,jieshentzuai,杰身自愛,1354978,社會大學
+2207.123,3291,https://assets.leetcode.com/users/briansu/avatar_1612337594.png,briansu,Brian Su,621585,
+2206.088866131725,3307,https://assets.leetcode.com/users/kruztw/avatar_1634479440.png,kruztw,kruztw,632,
+2205.694,3316,https://assets.leetcode.com/users/mike51/avatar_1521074853.png,mike51,Mike Hung,9044,National Taiwan University
+2201.063,3398,https://assets.leetcode.com/users/tsyr8924503/avatar_1581833348.png,tsyr8924503,,1015782,
+2199.718,3413,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,nehcdnr,,588306,
+2198.669,3431,https://assets.leetcode.com/users/howeverforever/avatar_1542972175.png,howeverforever,,33553,
+2198.2809983224647,3437,https://assets.leetcode.com/users/avatars/avatar_1654435594.png,eatcoc10,zhz,31070,
+2197.204947819401,3457,https://assets.leetcode.com/users/a23202418/avatar_1606635270.png,LKVV,LKV,5542,National Taipei University
+2196.099,3470,https://assets.leetcode.com/users/shes990106/avatar_1594404215.png,FrankLu0618,Frank,6115,National Taiwan University
+2195.9615229638657,3475,https://assets.leetcode.com/users/epoch0404/avatar_1527422680.png,BooAA,BooAA,1435,National Taiwan University
+2194.964,3491,https://assets.leetcode.com/users/avatars/avatar_1639887654.png,colinyoyo26,Yo Yi,8620,NTU
+2191.247,3574,https://assets.leetcode.com/users/npes87184/avatar_1600175131.png,npes87184,Yu-Chen Lin,11008,
+2190.438,3587,https://assets.leetcode.com/users/b99202021/avatar_1577547839.png,b99202021,williamLinFans,4492,
+2185.047751058918,3675,https://assets.leetcode.com/users/steve13814/avatar_1555233947.png,steve13814,,6021,
+2176.8878058440623,3798,https://assets.leetcode.com/users/b09401137/avatar_1622816202.png,CYDerekYeh,CYDerekYeh,316425,
+2173.4992472143854,3861,https://assets.leetcode.com/users/codingsheep1229/avatar_1547731585.png,CodingSheep1229,Yang,35914,Carnegie Mellon College
+2170.03,3927,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,eddy1021,Eddy Hsu,1407176,
+2169.46374545558,3938,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,bcb98801xx,HSU TZU JEN,430,NTUST
+2168.712,3953,https://assets.leetcode.com/users/cheng-en/avatar_1521080656.png,cheng-en,Dusthaha,2427,
+2168.382825586018,3959,https://assets.leetcode.com/users/user5331i/avatar_1539935036.png,ckw_tw,ckw_tw,10160,
+2167.1731195910957,3976,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,shikenghua,,3017,
+2166.239,3994,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,hq8398,Eric,222534,
+2165.6554544134337,4004,https://assets.leetcode.com/users/fishballlin/avatar_1534652277.png,fishballLin,Michael Lin,56553,National Chiao Tung University
+2165.0651858963643,4019,https://assets.leetcode.com/users/peter30622/avatar_1627748694.png,peter30622,HC Chang,608,
+2163.610399188733,4050,https://assets.leetcode.com/users/leovincentseles/avatar_1636766440.png,leovincentseles,Yin-Chiuan Chen,40885,National Taiwan University
+2161.569,4086,https://assets.leetcode.com/users/troy517545/avatar_1622952183.png,troy517545,Troy Wang,22580,National Tsing Hua University
+2161.098,4099,https://assets.leetcode.com/users/han25/avatar_1521703982.png,Han_03g,Han Chiang,42226,
+2156.65447125004,4189,https://assets.leetcode.com/users/avatars/avatar_1659893420.png,SunGod1223,黃太陽,6667,
+2151.812959778706,4283,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,kenliu,kenliu,15778,
+2149.876,4321,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,Neilhahaha,,18289,
+2148.284,4352,https://assets.leetcode.com/users/cykao0907/avatar_1559032625.png,jakao,jakao,486565,
+2146.021,4399,https://assets.leetcode.com/users/lintseju/avatar_1521853881.png,lintseju,"Lin, Tse-Ju",14961,
+2144.122193778453,4436,https://assets.leetcode.com/users/avatars/avatar_1649836943.png,shockwang,Yu-Chieh Wang,3124,
+2143.3135051826584,4443,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,hy0913,hy0913,10091,National Taiwan University
+2139.2244526889585,4527,https://assets.leetcode.com/users/you_jia/avatar_1532656459.png,you_jia,You Jia Chang,8470,
+2138.049,4550,https://assets.leetcode.com/users/laura83615/avatar_1581234943.png,lauraTsai,Laura,6651,
+2137.678,4558,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,ltf0501,Ting-Feng Lin,917135,
+2137.67,4559,https://assets.leetcode.com/users/jrying/avatar_1524363867.png,jrying,Chih-Ying Chen,106543,
+2135.697743962573,4592,https://assets.leetcode.com/users/avatars/avatar_1647430453.png,jo7p,jo7p,22909,
+2131.0446086481597,4691,https://assets.leetcode.com/users/pekopeko/avatar_1599907462.png,NMSLeetcode,TrashLeetCode,3397,
+2127.41,4773,https://assets.leetcode.com/users/weishun/avatar_1548565875.png,wshack,wsman,1415,National Taiwan University
+2127.325,4778,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,ZetaLuLu,,51967,
+2126.843,4790,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,dibery,,261958,
+2126.176238109877,4804,https://assets.leetcode.com/users/avatars/avatar_1669213954.png,Wilsano,Wilsano,9968,National Taiwan University
+2124.071,4856,https://s3-us-west-1.amazonaws.com/s3-lc-upload/assets/default_avatar.jpg,bulubu,Ming-Da Tsai,8100,
+2123.286634346342,4865,https://assets.leetcode.com/users/avatars/avatar_1654923502.png,ga815647,Hung-Kai Huang,12054,Chia Nan University of Pharmacy ＆ Science
+2119.9802360138033,4936,https://assets.leetcode.com/users/pat333333/avatar_1635443538.png,pat333333,Shih Chien Chang,1557,Brown University
+2119.522,4948,https://assets.leetcode.com/users/toastcheng/avatar_1599039574.png,ToastCheng,Toast Cheng,8024,
+2118.736948004971,4966,https://assets.leetcode.com/users/avatars/avatar_1650005154.png,beeezzz,,7088,
