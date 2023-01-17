@@ -14,13 +14,16 @@ for i in tqdm(range(13878)):
     # try to catch no reponse (retry 3 times)
     retry = 0
     while graphql_ranking.status_code != 200 and retry < 4:
+        print(f'page {str(i+1)} retry {retry+1} times')
         time.sleep(60)
         graphql_ranking = requests.post(
             'https://leetcode.com/graphql/',
             json = {"query": "{\n  globalRanking(page: "+str(i+1)+") {\n    totalUsers\n    userPerPage\n    myRank {\n      ranking\n      currentGlobalRanking\n      currentRating\n      dataRegion\n      user {\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    rankingNodes {\n      ranking\n      currentRating\n      currentGlobalRanking\n      dataRegion\n      user {\n        username\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        profile {\n          userAvatar\n          countryCode\n          countryName\n          realName\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
         )
         retry += 1
-    if retry == 4: continue
+    if retry == 4:
+        print(f'skip page {str(i+1)}')
+        continue
 
 
     for rankingNode in graphql_ranking.json()['data']['globalRanking']['rankingNodes']:
