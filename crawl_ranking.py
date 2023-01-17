@@ -1,6 +1,7 @@
-import requests
+import os, requests, pymongo
 import pandas as pd
 from tqdm import tqdm
+
 
 ranking_DF = pd.DataFrame(columns=['currentRating', 'currentGlobalRanking', 'userAvatar', 'username', 'realName', 'ranking', 'school'])
 currentRating=[]; currentGlobalRanking=[]; userAvatar=[]; username=[]; realName=[]; ranking=[]; school=[]
@@ -34,3 +35,9 @@ ranking_DF['username'] = username
 ranking_DF['realName'] = realName
 ranking_DF['ranking'] = ranking
 ranking_DF['school'] = school
+
+client = pymongo.MongoClient( os.environ['MONGODB_URI'] )
+db = client['LC-TW-Board']
+col = db['main']
+col.delete_many({})
+col.insert_many(ranking_DF.to_dict('records'))
