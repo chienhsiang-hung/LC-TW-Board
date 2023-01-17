@@ -1,4 +1,4 @@
-import os, requests, pymongo
+import os, requests, time, pymongo
 import pandas as pd
 from tqdm import tqdm
 
@@ -6,15 +6,26 @@ from tqdm import tqdm
 ranking_DF = pd.DataFrame(columns=['currentRating', 'currentGlobalRanking', 'userAvatar', 'username', 'realName', 'ranking', 'school'])
 currentRating=[]; currentGlobalRanking=[]; userAvatar=[]; username=[]; realName=[]; ranking=[]; school=[]
 for i in tqdm(range(13878)):
-    # POST for ranking data for the page
+    # POST for ranking data of the page
     graphql_ranking = requests.post(
         'https://leetcode.com/graphql/',
         json = {"query": "{\n  globalRanking(page: "+str(i+1)+") {\n    totalUsers\n    userPerPage\n    myRank {\n      ranking\n      currentGlobalRanking\n      currentRating\n      dataRegion\n      user {\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    rankingNodes {\n      ranking\n      currentRating\n      currentGlobalRanking\n      dataRegion\n      user {\n        username\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        profile {\n          userAvatar\n          countryCode\n          countryName\n          realName\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
     )
+    # try to catch no reponse
+    retry = 0
+    while graphql_ranking.status_code != 200 and retry < 4:
+        time.sleep(60)
+        graphql_ranking = requests.post(
+            'https://leetcode.com/graphql/',
+            json = {"query": "{\n  globalRanking(page: "+str(i+1)+") {\n    totalUsers\n    userPerPage\n    myRank {\n      ranking\n      currentGlobalRanking\n      currentRating\n      dataRegion\n      user {\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    rankingNodes {\n      ranking\n      currentRating\n      currentGlobalRanking\n      dataRegion\n      user {\n        username\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        profile {\n          userAvatar\n          countryCode\n          countryName\n          realName\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
+        )
+        retry += 1
+    if retry == 4: continue
+
 
     for rankingNode in graphql_ranking.json()['data']['globalRanking']['rankingNodes']:
         if rankingNode['user']['profile']['countryCode'] == 'TW':
-            # POST for user data for the username
+            # POST for user data of the username
             graphql_user = requests.post(
                 'https://leetcode.com/graphql/',
                 json = {
