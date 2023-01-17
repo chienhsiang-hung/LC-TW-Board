@@ -5,7 +5,8 @@ from tqdm import tqdm
 
 ranking_DF = pd.DataFrame(columns=['currentRating', 'currentGlobalRanking', 'userAvatar', 'username', 'realName', 'ranking', 'school'])
 currentRating=[]; currentGlobalRanking=[]; userAvatar=[]; username=[]; realName=[]; ranking=[]; school=[]
-for i in tqdm(range(13878)):
+for i in tqdm(range(293,295)):
+    # POST for ranking data for the page
     graphql_ranking = requests.post(
         'https://leetcode.com/graphql/',
         json = {"query": "{\n  globalRanking(page: "+str(i+1)+") {\n    totalUsers\n    userPerPage\n    myRank {\n      ranking\n      currentGlobalRanking\n      currentRating\n      dataRegion\n      user {\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    rankingNodes {\n      ranking\n      currentRating\n      currentGlobalRanking\n      dataRegion\n      user {\n        username\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        profile {\n          userAvatar\n          countryCode\n          countryName\n          realName\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
@@ -13,6 +14,7 @@ for i in tqdm(range(13878)):
 
     for rankingNode in graphql_ranking.json()['data']['globalRanking']['rankingNodes']:
         if rankingNode['user']['profile']['countryCode'] == 'TW':
+            # POST for user data for the username
             graphql_user = requests.post(
                 'https://leetcode.com/graphql/',
                 json = {
@@ -20,13 +22,19 @@ for i in tqdm(range(13878)):
                     "variables": {"username": rankingNode['user']['username']}
                 }
             )
+            
             currentRating.append(rankingNode['currentRating'])
             currentGlobalRanking.append(rankingNode['currentGlobalRanking'])
             userAvatar.append(rankingNode['user']['profile']['userAvatar'])
             username.append(rankingNode['user']['username'])
             realName.append(rankingNode['user']['profile']['realName'])
-            ranking.append(graphql_user.json()['data']['matchedUser']['profile']['ranking'])
-            school.append(graphql_user.json()['data']['matchedUser']['profile']['school'])
+            ranking.append(
+                # handle 'That user does not exist.'
+                graphql_user.json()['data']['matchedUser']['profile']['ranking'] if graphql_user.json()['data']['matchedUser'] else None
+            )
+            school.append(
+                graphql_user.json()['data']['matchedUser']['profile']['school'] if graphql_user.json()['data']['matchedUser'] else None
+            )
 
 ranking_DF['currentRating'] = currentRating
 ranking_DF['currentGlobalRanking'] = currentGlobalRanking
