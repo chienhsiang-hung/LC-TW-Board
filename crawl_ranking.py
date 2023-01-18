@@ -93,6 +93,7 @@ ranking_DF['username'] = username
 ranking_DF['realName'] = realName
 ranking_DF['ranking'] = ranking
 ranking_DF['school'] = school
+ranking_DF['twRanking'] = ranking_DF.index+1
 
 
 client = pymongo.MongoClient( os.environ['MONGODB_URI'] )
