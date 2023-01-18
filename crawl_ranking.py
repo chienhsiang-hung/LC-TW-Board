@@ -1,6 +1,18 @@
-import os, requests, time, pymongo
+import os, requests, random, time, pymongo
 import pandas as pd
 from tqdm import tqdm
+
+
+user_agent_list = ["Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
+                    "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
+                    "Mozilla/5.0 (Windows NT 10.0; WOW64) Gecko/20100101 Firefox/61.0",
+                    "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36",
+                    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36",
+                    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36",
+                    "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)",
+                    "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15",
+                    ]
+headers = {'User-Agent': random.choice(user_agent_list)}
 
 
 ranking_DF = pd.DataFrame(columns=['currentRating', 'currentGlobalRanking', 'userAvatar', 'username', 'realName', 'ranking', 'school'])
@@ -9,6 +21,7 @@ for i in tqdm(range(13878)):
     # POST for ranking data of the page
     graphql_ranking = requests.post(
         'https://leetcode.com/graphql/',
+        headers = headers,
         json = {"query": "{\n  globalRanking(page: "+str(i+1)+") {\n    totalUsers\n    userPerPage\n    myRank {\n      ranking\n      currentGlobalRanking\n      currentRating\n      dataRegion\n      user {\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    rankingNodes {\n      ranking\n      currentRating\n      currentGlobalRanking\n      dataRegion\n      user {\n        username\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        profile {\n          userAvatar\n          countryCode\n          countryName\n          realName\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
     )
     # try to catch no reponse (retry 3 times)
@@ -18,6 +31,7 @@ for i in tqdm(range(13878)):
         time.sleep(60)
         graphql_ranking = requests.post(
             'https://leetcode.com/graphql/',
+            headers = headers,
             json = {"query": "{\n  globalRanking(page: "+str(i+1)+") {\n    totalUsers\n    userPerPage\n    myRank {\n      ranking\n      currentGlobalRanking\n      currentRating\n      dataRegion\n      user {\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    rankingNodes {\n      ranking\n      currentRating\n      currentGlobalRanking\n      dataRegion\n      user {\n        username\n        nameColor\n        activeBadge {\n          displayName\n          icon\n          __typename\n        }\n        profile {\n          userAvatar\n          countryCode\n          countryName\n          realName\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
         )
         retry += 1
@@ -31,6 +45,7 @@ for i in tqdm(range(13878)):
             # POST for user data of the username
             graphql_user = requests.post(
                 'https://leetcode.com/graphql/',
+                headers = headers,
                 json = {
                     "query": "query userPublicProfile($username: String!) {\n  matchedUser(username: $username) {\n    contestBadge {\n      name\n      expired\n      hoverText\n      icon\n    }\n    username\n    githubUrl\n    twitterUrl\n    linkedinUrl\n    profile {\n      ranking\n      userAvatar\n      realName\n      aboutMe\n      school\n      websites\n      countryName\n      company\n      jobTitle\n      skillTags\n      postViewCount\n      postViewCountDiff\n      reputation\n      reputationDiff\n      solutionCount\n      solutionCountDiff\n      categoryDiscussCount\n      categoryDiscussCountDiff\n    }\n  }\n}\n    ",
                     "variables": {"username": rankingNode['user']['username']}
@@ -43,6 +58,7 @@ for i in tqdm(range(13878)):
                 time.sleep(60)
                 graphql_user = requests.post(
                     'https://leetcode.com/graphql/',
+                    headers = headers,
                     json = {
                         "query": "query userPublicProfile($username: String!) {\n  matchedUser(username: $username) {\n    contestBadge {\n      name\n      expired\n      hoverText\n      icon\n    }\n    username\n    githubUrl\n    twitterUrl\n    linkedinUrl\n    profile {\n      ranking\n      userAvatar\n      realName\n      aboutMe\n      school\n      websites\n      countryName\n      company\n      jobTitle\n      skillTags\n      postViewCount\n      postViewCountDiff\n      reputation\n      reputationDiff\n      solutionCount\n      solutionCountDiff\n      categoryDiscussCount\n      categoryDiscussCountDiff\n    }\n  }\n}\n    ",
                         "variables": {"username": rankingNode['user']['username']}
